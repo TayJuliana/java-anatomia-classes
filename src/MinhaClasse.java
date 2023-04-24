@@ -3,15 +3,14 @@ public class MinhaClasse {
     public static void main (String [] args) {
 
         String primeiroNome = "Taynara";
-        String segundoNome = "Juliana";
-        String ultimoNome = "Cruz";
+        String segundoNome = "Cruz";
 
-        String nomeCompleto = nomeCompleto (primeiroNome,segundoNome,ultimoNome);
+        String nomeCompleto = nomeCompleto (primeiroNome,segundoNome);
 
         System.out.println(nomeCompleto);
 
         }
-        public static String nomeCompleto (String primeiroNome, String segundoNome, String ultimoNome){
+        public static String nomeCompleto (String primeiroNome, String segundoNome){
             return primeiroNome.concat(" ").concat(segundoNome);
         }
         
